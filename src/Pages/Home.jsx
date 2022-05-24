@@ -1,6 +1,6 @@
 import React from 'react'
-import { SimpleGrid, Box, Code, Icon, Button, Link} from '@chakra-ui/react'
-import { AiFillGithub } from 'react-icons/ai'
+import { SimpleGrid, Box, Code } from '@chakra-ui/react'
+import GithubBTN from '../Components/Shared/GithubBTN';
 
 function Home() {
   const syntax = `<p>`;
@@ -13,12 +13,7 @@ function Home() {
         <Code>{syntax}Front-End Web Developer{syntac}</Code>
       </Box>
       <Box textAlign='center' mb='10%'>
-        <Button variant='link' mt='2%' fontSize='small'>
-        <Link href='https://github.com/Apollo2006'>
-          View the Sites Code
-        </Link>
-        <Icon as={AiFillGithub} w={7} h={7} padding='3%'/>
-        </Button>
+        <GithubBTN text='View Sites Code'/>
       </Box>
       
     </SimpleGrid>
