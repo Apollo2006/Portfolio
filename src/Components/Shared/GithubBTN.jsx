@@ -4,7 +4,7 @@ import { AiFillGithub } from 'react-icons/ai'
 
 function GithubBTN({ text }) {
   return (
-    <Button variant='link' mt='2%' fontSize='small'>
+    <Button variant='link' fontSize='small'>
         <Link href='https://github.com/Apollo2006'>
           {text}
         </Link>

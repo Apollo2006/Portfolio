@@ -7,25 +7,25 @@ function Projects() {
     {
       "id":1,
       "header" : "<h1>Portfolio</h1>",
-      "link": "https://github.com/Apollo2006/Portfolio",     "desc": "The current website made with React and Chakra UI. Built with the knowledge I have gained till now."
+      "repoLink": "https://github.com/Apollo2006/Portfolio",     "desc": "The current website made with React and Chakra UI. Built with the knowledge I have gained till now."
     },
     {
       "id":2,
       "header" : "<h1>FeedbackUI</h1>",
-      "link": "https://github.com/Apollo2006/FeedbackUI",  
-      "desc": "This is a basic FeedbackUI that could be used in order to get reviews from customer. Mainly the use of filter and mapping."
+      "repoLink": "https://github.com/Apollo2006/FeedbackUI",  
+      "desc": "This is a basic FeedbackUI that could be used in order to get reviews from customer. Mainly possible from the use of filter and mapping."
     },
     {
       "id":3,
       "header" : "<h1>GithubFinder</h1>",
-      "link": "https://github.com/Apollo2006/GithubFinder",  
+      "repoLink": "https://github.com/Apollo2006/GithubFinder",  
       "desc": "This application can find Github users and their info with the use of Github API. P.S I had outside help."
     },
     {
       "id":4,
       "header" : "<h1>ToDo.V2</h1>",
-      "link": "https://github.com/Apollo2006/ToDoV2",  
-      "desc": "While this is a very basic and old project. I fondly look back at this as my starting step towards coding and look at how much progress is made."
+      "repoLink": "https://github.com/Apollo2006/ToDoV2",  
+      "desc": "While this is a very basic and old project. I fondly look back at this as my starting step towards coding and look at how much progress I've made:)"
     }
   ]
 
@@ -38,7 +38,7 @@ function Projects() {
             Projects
         </Box>
         <SimpleGrid justifyContent='center' columns={1}  >
-          {Projects.map(Projects => <ProjectCard key={Projects.id} header={Projects.header} description={Projects.desc} link={Projects.link}/>)}
+          {Projects.map(Projects => <ProjectCard key={Projects.id} header={Projects.header} description={Projects.desc} link={Projects.repoLink}/>)}
         </SimpleGrid>
     </div>
   )
