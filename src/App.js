@@ -2,6 +2,7 @@ import Navbar from "./Components/Navbar";
 import Home from "./Pages/Home";
 import Projects from "./Pages/Projects";
 import Resume from "./Pages/Resume";
+import About from "./Pages/About";
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Home />
+      <About />
       <Projects />
       <Resume />
     </div>

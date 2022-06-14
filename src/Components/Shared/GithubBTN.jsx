@@ -8,7 +8,7 @@ function GithubBTN({ text }) {
         <Link href='https://github.com/Apollo2006'>
           {text}
         </Link>
-        <Icon as={AiFillGithub} w={7} h={7} padding='3%'/>
+        <Icon as={AiFillGithub} w={7} h={7} padding='3%' mt='1%'/>
         </Button>
   )
 }

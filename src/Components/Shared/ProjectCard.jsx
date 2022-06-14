@@ -9,7 +9,7 @@ function ProjectCard({ header, description, id, link }) {
     <>
       <Link href={link}>
         <Box key={id} textAlign='left' justifyContent='center'  fontWeight='thin' m='3% 10%'>
-        <h1 ><Code fontSize='2xl' fontWeight='thin'>{header}</Code><GithubBTN/></h1>
+        <h1><Code fontSize='2xl' fontWeight='thin'>{header}</Code><GithubBTN/></h1>
         <p>{description}</p>
       </Box>
       </Link>
