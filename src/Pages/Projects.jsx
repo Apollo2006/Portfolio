@@ -31,16 +31,17 @@ function Projects() {
 
 
   return (
-    <div spacing='10' w='100%'>
+    <Box spacing='10' w='100%'>
         <Box 
           bg='white' mt='5%'
-          textAlign='center' justify='center'  fontWeight='thin' fontFamily='serif' letterSpacing='wider' fontSize='4xl'>
+          textAlign='center' justify='center'  fontWeight='thin' fontFamily='serif' letterSpacing='wider' fontSize='4xl'
+          float='inherit' >
             Projects
         </Box>
         <SimpleGrid justifyContent='center' columns={1}  >
           {Projects.map(Projects => <ProjectCard key={Projects.id} header={Projects.header} description={Projects.desc} link={Projects.repoLink}/>)}
         </SimpleGrid>
-    </div>
+    </Box>
   )
 }
 
